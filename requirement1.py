@@ -23,3 +23,20 @@ if n > 5:
     print("The list is long.")
 else:
     print("The list is short.")
+
+    # Exercise 3: Sum of User Inputs
+
+num1 = int(input("\nEnter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+num_list = [num1, num2, num3]
+total = num1 + num2 + num3
+
+print("Numbers:", num_list)
+print("Total:", total)
+
+if total % 2 == 0:
+    print("Your sum is even!")
+else:
+    print("Your sum is odd!")
