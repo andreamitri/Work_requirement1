@@ -24,7 +24,7 @@ if n > 5:
 else:
     print("The list is short.")
 
-    # Exercise 3: Sum of User Inputs
+# Exercise 3: Sum of User Inputs
 
 num1 = int(input("\nEnter first number: "))
 num2 = int(input("Enter second number: "))
@@ -57,4 +57,20 @@ if fruit in fruit_basket:
         print(letter)
 else:
     print("We don't have that fruit.")
-    
+
+
+ # Exercise 5: Temperature Converter
+
+celsius = float(input("\nEnter temperature in Celsius: "))
+fahrenheit = (celsius * 9 / 5) + 32
+
+temps = [celsius, fahrenheit]
+
+print(f"Temperature in Fahrenheit: {fahrenheit}")
+
+if fahrenheit > 80:
+    print("It's hot!")
+else:
+    print("It's not too hot.")
+
+print("Temperatures list:", temps)
