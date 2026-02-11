@@ -40,3 +40,21 @@ if total % 2 == 0:
     print("Your sum is even!")
 else:
     print("Your sum is odd!")
+
+    # Exercise 4: Fruit Basket
+
+fruit_basket = {
+    "apple": 10,
+    "banana": 5,
+    "orange": 8
+}
+
+fruit = input("\nEnter a fruit name: ").lower()
+
+if fruit in fruit_basket:
+    print(f"We have {fruit_basket[fruit]} {fruit}(s).")
+    for letter in fruit:
+        print(letter)
+else:
+    print("We don't have that fruit.")
+    
